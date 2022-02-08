@@ -54,11 +54,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProductListItem.cs" />
+    <Compile Include="ProductDetail.cs" />
+    <Compile Include="ProductCreate.cs" />
+    <Compile Include="ProductEdit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AndromedaWave.Data\AndromedaWave.Data.csproj">
+      <Project>{68962E50-BEE7-462F-8570-04137C0E791F}</Project>
+      <Name>AndromedaWave.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
