@@ -2,6 +2,7 @@
 using Microsoft.AspNet.Identity.EntityFramework;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using AndromedaWave.Data;
 
 namespace AndromedaWave.Data
 {

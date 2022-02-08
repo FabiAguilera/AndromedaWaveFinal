@@ -21,7 +21,7 @@ namespace AndromedaWave.Data
         ///andrew's line
         ///collin's line
         ///collin's line
-        ///fabi's line
+        public DbSet<Product> Products { get; set; }
         ///fabi's line
 
         public static ApplicationDbContext Create()
