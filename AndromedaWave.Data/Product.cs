@@ -17,6 +17,7 @@ namespace AndromedaWave.Data
     public class Product
     {
         [Key]
+        [Column("TicketId")]
         public int TicketId { get; set; }
 
         [Required]
