@@ -16,11 +16,11 @@ namespace AndromedaWave.Data
         {
         }
 
-        //public DbSet<Note> Notes { get; set; } <- ANDREW and COLLIN Add your entities here!!
-        ///andrew's line
-        ///andrew's line
-        ///collin's line
-        ///collin's line
+       
+       
+        
+       
+       
         public DbSet<Product> Products { get; set; }
         ///fabi's line
 
