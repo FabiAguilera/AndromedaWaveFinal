@@ -10,6 +10,7 @@ namespace AndromedaWave.Data.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
+            AutomaticMigrationDataLossAllowed = true;
             ContextKey = "AndromedaWave.Data.ApplicationDbContext";
         }
 
