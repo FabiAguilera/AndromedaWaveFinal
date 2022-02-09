@@ -33,3 +33,37 @@ C:\EFA\SD116\BlueBadge\AndromedaWaveAPI\AndromedaWave\AndromedaWave.Data\obj\Deb
 C:\EFA\SD116\BlueBadge\AndromedaWaveAPI\AndromedaWave\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.CopyComplete
 C:\EFA\SD116\BlueBadge\AndromedaWaveAPI\AndromedaWave\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.dll
 C:\EFA\SD116\BlueBadge\AndromedaWaveAPI\AndromedaWave\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.pdb
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\AndromedaWave.Data.dll.config
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\AndromedaWave.Data.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\AndromedaWave.Data.pdb
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\EntityFramework.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Microsoft.Owin.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Owin.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\System.Web.Http.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\EntityFramework.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Microsoft.Owin.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\System.Web.Http.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.AssemblyReference.cache
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.pdb

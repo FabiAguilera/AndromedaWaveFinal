@@ -1,0 +1,16 @@
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\bin\Debug\AndromedaWave.Models.dll.config
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\bin\Debug\AndromedaWave.Models.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\bin\Debug\AndromedaWave.Models.pdb
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\bin\Debug\EntityFramework.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\bin\Debug\EntityFramework.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\obj\Debug\AndromedaWave.Models.csproj.AssemblyReference.cache
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\obj\Debug\AndromedaWave.Models.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\obj\Debug\AndromedaWave.Models.csproj.CopyComplete
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\obj\Debug\AndromedaWave.Models.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Models\obj\Debug\AndromedaWave.Models.pdb
