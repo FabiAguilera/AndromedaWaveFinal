@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AndromedaWave.Models
 {
-    public enum ProdPriceLevel
+    public enum AdmissionTier
     {
         GeneralAdmission = 1,
         ClubMembers,
@@ -18,16 +18,16 @@ namespace AndromedaWave.Models
     {
         [Required]
         [MinLength(1, ErrorMessage = "Please enter at least 1 character!")]
-        public string ProdName { get; set; }
+        public string EventName { get; set; }
         
         [Required]
-        public decimal ProdPrice { get; set; }
+        public decimal TicketPrice { get; set; }
 
         [Required]
-        public ProdPriceLevel LevelPrice { get; set; }
+        public AdmissionTier Admission { get; set; }
 
         [Required]
-        public bool ProdStatus { get; set; }
+        public string StatusOfTicket { get; set; }
         
         [Display(Name = "Date Created")]
         public DateTimeOffset CreatedUtc { get; set; }

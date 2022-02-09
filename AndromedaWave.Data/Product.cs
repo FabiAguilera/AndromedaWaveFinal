@@ -7,31 +7,31 @@ using System.Threading.Tasks;
 
 namespace AndromedaWave.Data
 {
-    public enum ProdPriceLevel
+    public enum AdmissionTier
     {
-        GeneralAdmission = 1,
+        GeneralAdmission,
         ClubMembers,
         VIP
     }
     public class Product
     {
         [Key]
-        public int ProdId { get; set; }
+        public int TicketId { get; set; }
 
         [Required]
         public Guid OwnerId { get; set; }
 
         [Required]
-        public string ProdName { get; set; }
+        public string EventName { get; set; }
         
         [Required]
-        public decimal ProdPrice { get; set; }
+        public decimal TicketPrice { get; set; }
         
         [Required]
-        public ProdPriceLevel LevelPrice { get; set; }
+        public AdmissionTier Admission { get; set; }
         
         [Required]
-        public bool ProdStatus { get; set; }
+        public string StatusOfTicket { get; set; }
         
         [Required]
         public DateTimeOffset CreatedUtc { get; set; }

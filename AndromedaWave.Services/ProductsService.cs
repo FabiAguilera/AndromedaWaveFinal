@@ -23,10 +23,10 @@ namespace AndromedaWave.Services
                 new Product()
                 {
                     OwnerId = _userId,
-                    ProdName = model.ProdName,
-                    ProdStatus = model.ProdStatus,
-                    LevelPrice = (Data.ProdPriceLevel)model.LevelPrice,
-                    ProdPrice = model.ProdPrice,
+                    EventName = model.EventName,
+                    StatusOfTicket = model.StatusOfTicket,
+                    Admission = (Data.AdmissionTier)model.Admission,
+                    TicketPrice = model.TicketPrice,
                     CreatedUtc = DateTimeOffset.Now,
                     //CategoryId = model.CategoryId
                 };
@@ -51,10 +51,10 @@ namespace AndromedaWave.Services
                         e =>
                             new ProductListItem
                             {
-                                ProdId = e.ProdId,
-                                ProdPrice = e.ProdPrice,
-                                LevelPrice = (Models.ProdPriceLevel)e.LevelPrice,
-                                ProdStatus = e.ProdStatus,
+                                TicketId = e.TicketId,
+                                TicketPrice = e.TicketPrice,
+                                Admission = (Models.AdmissionTier)e.Admission,
+                                StatusOfTicket = e.StatusOfTicket,
                                 CreatedUtc = e.CreatedUtc
                             }
                             );
@@ -69,15 +69,15 @@ namespace AndromedaWave.Services
                 var entity =
                     ctx
                     .Products
-                    .Single(e => e.ProdId == id && e.OwnerId == _userId);
+                    .Single(e => e.TicketId == id && e.OwnerId == _userId);
                 return
                     new ProductDetail
                     {
-                        ProdId = entity.ProdId,
-                        ProdStatus = entity.ProdStatus,
-                        ProdName = entity.ProdName,
-                        ProdPrice = entity.ProdPrice,
-                        LevelPrice = (Models.ProdPriceLevel)entity.LevelPrice,
+                        TicketId = entity.TicketId,
+                        StatusOfTicket = entity.StatusOfTicket,
+                        EventName = entity.EventName,
+                        TicketPrice = entity.TicketPrice,
+                        Admission = (Models.AdmissionTier)entity.Admission,
                         CreatedUtc = entity.CreatedUtc,
                         ModifiedUtc = entity.ModifiedUtc
                     };
@@ -91,26 +91,26 @@ namespace AndromedaWave.Services
                 var entity =
                     ctx
                     .Products
-                    .Single(e => e.ProdId == model.ProdId && e.OwnerId == _userId);
+                    .Single(e => e.TicketId == model.TicketId && e.OwnerId == _userId);
 
-                entity.ProdName = model.ProdName;
-                entity.ProdPrice = model.ProdPrice;
-                entity.LevelPrice = (Data.ProdPriceLevel)model.LevelPrice;
-                entity.ProdStatus = model.ProdStatus;
+                entity.EventName = model.EventName;
+                entity.TicketPrice = model.TicketPrice;
+                entity.Admission = (Data.AdmissionTier)model.Admission;
+                entity.StatusOfTicket = model.StatusOfTicket;
                 entity.ModifiedUtc = DateTimeOffset.UtcNow;
 
                 return ctx.SaveChanges() == 1;
             }
         }
 
-        public bool DeleteProduct(int prodId)
+        public bool DeleteProduct(int ticketId)
         {
             using (var ctx = new ApplicationDbContext())
             {
                 var entity =
                     ctx
                     .Products
-                    .Single(e => e.ProdId == prodId && e.OwnerId == _userId);
+                    .Single(e => e.TicketId == ticketId && e.OwnerId == _userId);
                 ctx.Products.Remove(entity);
                 return ctx.SaveChanges() == 1;
             }
