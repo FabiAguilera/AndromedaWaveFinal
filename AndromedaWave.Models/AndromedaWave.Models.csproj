@@ -54,7 +54,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttendeeDetails.cs" />
+    <Compile Include="CreateAttendee.cs" />
+    <Compile Include="CreateTransaction.cs" />
+    <Compile Include="DeleteAttendee.cs" />
+    <Compile Include="DeleteTransaction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransactionReceipt.cs" />
+    <Compile Include="UpdateTransaction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

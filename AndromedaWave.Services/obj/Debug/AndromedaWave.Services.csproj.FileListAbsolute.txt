@@ -1,0 +1,16 @@
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\bin\Debug\AndromedaWave.Services.dll.config
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\bin\Debug\AndromedaWave.Services.dll
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\bin\Debug\AndromedaWave.Services.pdb
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\bin\Debug\EntityFramework.dll
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\bin\Debug\EntityFramework.SqlServer.dll
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\bin\Debug\EntityFramework.xml
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\bin\Debug\EntityFramework.SqlServer.xml
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\obj\Debug\AndromedaWave.Services.csproj.AssemblyReference.cache
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\obj\Debug\AndromedaWave.Services.csproj.CoreCompileInputs.cache
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\obj\Debug\AndromedaWave.Services.csproj.CopyComplete
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\obj\Debug\AndromedaWave.Services.dll
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Services\obj\Debug\AndromedaWave.Services.pdb
