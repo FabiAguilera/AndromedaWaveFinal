@@ -10,7 +10,7 @@ namespace AndromedaWave.Data.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "AndromedaWave.ApplicationDbContext";
+            ContextKey = "AndromedaWave.Data.ApplicationDbContext";
         }
 
         protected override void Seed(AndromedaWave.Data.ApplicationDbContext context)
