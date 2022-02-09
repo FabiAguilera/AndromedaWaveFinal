@@ -14,6 +14,7 @@ namespace AndromedaWave.Data
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ApplicationDbContext, AndromedaWave.Data.Migrations.Configuration>());
         }
 
        
