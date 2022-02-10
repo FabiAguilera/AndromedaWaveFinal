@@ -5,13 +5,11 @@ namespace AndromedaWave.Data.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    public sealed class Configuration : DbMigrationsConfiguration<AndromedaWave.Data.ApplicationDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<AndromedaWave.Data.ApplicationDbContext>
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
-            AutomaticMigrationDataLossAllowed = true;
-            ContextKey = "AndromedaWave.Data.ApplicationDbContext";
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(AndromedaWave.Data.ApplicationDbContext context)

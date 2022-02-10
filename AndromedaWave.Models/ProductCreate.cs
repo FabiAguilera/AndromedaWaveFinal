@@ -17,7 +17,6 @@ namespace AndromedaWave.Models
     public class ProductCreate
     {
         [Required]
-        [MinLength(1, ErrorMessage = "Please enter at least 1 character!")]
         public string EventName { get; set; }
         
         [Required]

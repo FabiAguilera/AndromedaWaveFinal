@@ -13,7 +13,7 @@ namespace AndromedaWave.Data.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202202092241240_ProductMigration"; }
+            get { return "202202100106427_ProductMigration"; }
         }
         
         string IMigrationMetadata.Source
