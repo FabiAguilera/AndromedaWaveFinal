@@ -53,6 +53,7 @@ namespace AndromedaWave.Services
                             {
                                 TicketId = e.TicketId,
                                 TicketPrice = e.TicketPrice,
+                                EventName = e.EventName,
                                 Admission = (Models.AdmissionTier)e.Admission,
                                 StatusOfTicket = e.StatusOfTicket,
                                 CreatedUtc = e.CreatedUtc

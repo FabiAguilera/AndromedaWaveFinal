@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace AndromedaWave.Models
 {
-   
+    public enum AdmissionTier
+    {
+        GeneralAdmission = 1,
+        ClubMembers,
+        VIP
+    }
     public class ProductEdit
     {
         public int TicketId { get; set; }

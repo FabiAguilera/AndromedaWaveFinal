@@ -7,13 +7,6 @@ using System.Threading.Tasks;
 
 namespace AndromedaWave.Models
 {
-    public enum AdmissionTier
-    {
-        GeneralAdmission = 1,
-        ClubMembers,
-        VIP
-    }
-
     public class ProductCreate
     {
         [Required]

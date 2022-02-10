@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace AndromedaWave.Models
 {
+    
+
     public class ProductListItem
     {
         public int TicketId { get; set; }
