@@ -23,12 +23,12 @@ namespace AndromedaWave.WebAPI.Controllers
         }
 
         [HttpPost]
-        public IHttpActionResult CreateAttendee(AttendeeCreate model)
+        public IHttpActionResult CreateAttendee(CreateAttendee model)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var service = CreateAttendeeService();
+            var service = CreateAttendeeServices();
 
             if (!service.CreateAttendee(model))
                 return InternalServerError();
@@ -54,7 +54,7 @@ namespace AndromedaWave.WebAPI.Controllers
         {
             var services = CreateAttendeeServices();
 
-            var query = services.GetAllAttendees();
+            var query = services.GetAttendees();
 
             return Ok(query);
         }

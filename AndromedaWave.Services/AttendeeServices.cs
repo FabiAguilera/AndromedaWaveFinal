@@ -16,9 +16,9 @@ namespace AndromedaWave.Services
         {
             _userId = userId;
         }
-        public bool CreateAttendee(AttendeeCreate model)
+        public bool CreateAttendee(CreateAttendee model)
         {
-            
+
             var entity =
                 new Attendee
                 {
@@ -32,56 +32,57 @@ namespace AndromedaWave.Services
                 return context.SaveChanges() == 1;
             }
         }
-    }
-    public IEnumerable<AttendeeDetails> GetAttendees()
-    {
-        using (var context = new ApplicationDbContext())
-        {
-            var query =
-                context
-                .Attendees
-                .Where(e => 1 == 1)
-                .Select(e =>
-                new AttendeeDetails
-                {
-                    AttendeeId = e.AttendeeId,
-                    CreatedAttendee = e.CreatedAttendee,
-                    AttendeeName = e.AttendeeName,
-                });
-            return query.ToArray();
-        }
-        
-    }
-    public AttendeeDetails GetAttendeeById(int AttendeeId)
-    {
-        using(var context = new ApplicationDbContext())
-        {
-            var entity =
-                context
-                .Attendees
-                .Single(e => AttendeeId == e.AttendeeId);
 
-            return new AttendeeDetails
+        public IEnumerable<AttendeeDetails> GetAttendees()
+        {
+            using (var context = new ApplicationDbContext())
             {
-                AttendeeId = entity.AttendeeId,
-                AttendeeName = entity.AttendeeName,
-                CreatedAttendee = entity.CreatedAttendee,
-            };
+                var query =
+                    context
+                    .Attendees
+                    .Where(e => 1 == 1)
+                    .Select(e =>
+                    new AttendeeDetails
+                    {
+                        AttendeeId = e.AttendeeId,
+                        CreatedAttendee = e.CreatedAttendee,
+                        AttendeeName = e.AttendeeName,
+                    });
+                return query.ToArray();
+            }
+
         }
-    }
-
-    public bool DeleteAttendee(int AttendeeId)
-    {
-        using (var context = new ApplicationDbContext())
+        public AttendeeDetails GetAttendeeById(int AttendeeId)
         {
-            var entity =
-                context
-                .Attendees
-                .Single(e => AttendeeId == e.AttendeeId);
+            using (var context = new ApplicationDbContext())
+            {
+                var entity =
+                    context
+                    .Attendees
+                    .Single(e => AttendeeId == e.AttendeeId);
 
-            context.Attendees.Remove(entity);
+                return new AttendeeDetails
+                {
+                    AttendeeId = entity.AttendeeId,
+                    AttendeeName = entity.AttendeeName,
+                    CreatedAttendee = entity.CreatedAttendee,
+                };
+            }
+        }
 
-            return context.SaveChanges() == 1;
+        public bool DeleteAttendee(int AttendeeId)
+        {
+            using (var context = new ApplicationDbContext())
+            {
+                var entity =
+                    context
+                    .Attendees
+                    .Single(e => AttendeeId == e.AttendeeId);
+
+                context.Attendees.Remove(entity);
+
+                return context.SaveChanges() == 1;
+            }
         }
     }
 }
