@@ -10,17 +10,16 @@ using System.Web.Http;
 
 namespace AndromedaWave.WebAPI.Controllers
 {
-    [Authorize]
-    public class ProductController : ApiController
-    { 
-        public IHttpActionResult Post(ProductCreate product)
+    public class MerchantController : ApiController
+    {
+        public IHttpActionResult Post(MerchantCreate merchant)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var service = CreateProductService();
+            var service = CreateMerchantService();
 
-            if (!service.CreateProduct(product))
+            if (!service.CreateMerchant(merchant))
                 return InternalServerError();
 
             return Ok();
@@ -28,35 +27,35 @@ namespace AndromedaWave.WebAPI.Controllers
 
         public IHttpActionResult Get()
         {
-            ProductsService productsService = CreateProductService();
-            var products = productsService.GetProducts();
+            MerchantService merchantService = CreateMerchantService();
+            var merchants = merchantService.GetMerchants();
 
-            return Ok(products);
+            return Ok(merchants);
         }
 
-        private ProductsService CreateProductService()
+        private MerchantService CreateMerchantService()
         {
             var userId = Guid.Parse(User.Identity.GetUserId());
-            var productsService = new ProductsService(userId);
-            return productsService;
+            var merchantService = new MerchantService(userId);
+            return merchantService;
         }
 
 
         public IHttpActionResult Get(int id)
         {
-            ProductsService productsService = CreateProductService();
-            var product = productsService.GetProductById(id);
-            return Ok(product);
+            MerchantService merchantService = CreateMerchantService();
+            var merchant = merchantService.GetMerchantById(id);
+            return Ok(merchant);
         }
 
-        public IHttpActionResult Put(ProductEdit product)
+        public IHttpActionResult Put(MerchantEdit merchant)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var service = CreateProductService();
+            var service = CreateMerchantService();
 
-            if (!service.UpdateProduct(product))
+            if (!service.UpdateMerchant(merchant))
                 return InternalServerError();
 
             return Ok();
@@ -64,9 +63,9 @@ namespace AndromedaWave.WebAPI.Controllers
 
         public IHttpActionResult Delete(int id)
         {
-            var service = CreateProductService();
+            var service = CreateMerchantService();
 
-            if (!service.DeleteProduct(id))
+            if (!service.DeleteMerchant(id))
                 return InternalServerError();
             return Ok();
         }

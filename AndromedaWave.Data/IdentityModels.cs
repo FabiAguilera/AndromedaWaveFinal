@@ -14,7 +14,7 @@ namespace AndromedaWave.Data
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ApplicationDbContext, AndromedaWave.Data.Migrations.Configuration>());
+           // Database.SetInitializer(new MigrateDatabaseToLatestVersion<ApplicationDbContext, AndromedaWave.Data.Migrations.Configuration>());
         }
 
        
@@ -23,7 +23,7 @@ namespace AndromedaWave.Data
        
        
         public DbSet<Product> Products { get; set; }
-        ///fabi's line
+        public DbSet<Merchant> Merchants { get; set; }
 
         public static ApplicationDbContext Create()
         {

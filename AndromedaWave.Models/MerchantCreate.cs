@@ -7,21 +7,19 @@ using System.Threading.Tasks;
 
 namespace AndromedaWave.Models
 {
-    public class ProductCreate
+    public class MerchantCreate
     {
         [Required]
-        public string EventName { get; set; }
+        public int MerchantId { get; set; }
         
         [Required]
-        public decimal TicketPrice { get; set; }
-
+        public string Name { get; set; }
+        
         [Required]
-        public AdmissionTier Admission { get; set; }
-
-        [Required]
-        public string StatusOfTicket { get; set; }
+        public string Address { get; set; }
         
         [Display(Name = "Date Created")]
         public DateTimeOffset CreatedUtc { get; set; }
+
     }
 }
