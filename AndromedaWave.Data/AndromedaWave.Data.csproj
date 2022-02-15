@@ -91,10 +91,6 @@
     <Compile Include="Migrations\202202100106427_ProductMigration.Designer.cs">
       <DependentUpon>202202100106427_ProductMigration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202202110039052_MerchantMigration.cs" />
-    <Compile Include="Migrations\202202110039052_MerchantMigration.Designer.cs">
-      <DependentUpon>202202110039052_MerchantMigration.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -106,9 +102,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202202100106427_ProductMigration.resx">
       <DependentUpon>202202100106427_ProductMigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202202110039052_MerchantMigration.resx">
-      <DependentUpon>202202110039052_MerchantMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
