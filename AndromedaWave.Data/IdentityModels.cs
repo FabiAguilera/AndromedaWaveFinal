@@ -14,15 +14,25 @@ namespace AndromedaWave.Data
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
+           
         }
 
         //public DbSet<Note> Notes { get; set; } <- ANDREW and COLLIN Add your entities here!!
         ///andrew's line
+        public DbSet<Venue> Venues { get; set; }
         ///andrew's line
+        public DbSet<Category> Categories { get; set; }
         ///collin's line
         ///collin's line
         ///fabi's line
         ///fabi's line
+       
+       
+        
+       
+       
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Merchant> Merchants { get; set; }
 
         public static ApplicationDbContext Create()
         {

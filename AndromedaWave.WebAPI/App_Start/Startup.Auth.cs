@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using AndromedaWave.WebAPI.Providers;
 using AndromedaWave.WebAPI.Models;
+using AndromedaWave.Data;
 
 namespace AndromedaWave.WebAPI
 {
