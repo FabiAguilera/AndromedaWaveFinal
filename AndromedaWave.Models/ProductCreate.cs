@@ -1,33 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace AndromedaWave.Models
 {
-    public enum ProdPriceLevel
-    {
-        GeneralAdmission = 1,
-        ClubMembers,
-        VIP
-    }
-
     public class ProductCreate
     {
         [Required]
-        [MinLength(1, ErrorMessage = "Please enter at least 1 character!")]
-        public string ProdName { get; set; }
+        [Display(Name = "Event Name")]
+        public string EventName { get; set; }
         
         [Required]
-        public decimal ProdPrice { get; set; }
+        [Display(Name = "Ticket Price")]
+        public decimal TicketPrice { get; set; }
 
         [Required]
-        public ProdPriceLevel LevelPrice { get; set; }
+        [Display(Name = "Admission Tier")]
+        public AdmissionTier Admission { get; set; }
 
         [Required]
-        public bool ProdStatus { get; set; }
+        [Display(Name = "Availability")]
+        public string StatusOfTicket { get; set; }
+
+        [Required]
+        [ForeignKey("Merchant")]
+        public int MerchantId { get; set; }
         
         [Display(Name = "Date Created")]
         public DateTimeOffset CreatedUtc { get; set; }

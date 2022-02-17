@@ -54,6 +54,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MerchantCreate.cs" />
+    <Compile Include="MerchantDetail.cs" />
+    <Compile Include="MerchantEdit.cs" />
+    <Compile Include="MerchantListItem.cs" />
     <Compile Include="ProductListItem.cs" />
     <Compile Include="ProductDetail.cs" />
     <Compile Include="ProductCreate.cs" />
