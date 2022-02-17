@@ -87,23 +87,6 @@
     <Compile Include="ApplicationUser.cs" />
     <Compile Include="CategoryEntity\Category.cs" />
     <Compile Include="IdentityModels.cs" />
-    <Compile Include="Migrations\202202090233499_InitialCreate.cs" />
-    <Compile Include="Migrations\202202090233499_InitialCreate.Designer.cs">
-      <DependentUpon>202202090233499_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202202160126421_firstMigration.cs" />
-    <Compile Include="Migrations\202202160126421_firstMigration.Designer.cs">
-      <DependentUpon>202202160126421_firstMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Merchant.cs" />
-    <Compile Include="Migrations\202202162244362_ProdMerchMigration.cs" />
-    <Compile Include="Migrations\202202162244362_ProdMerchMigration.Designer.cs">
-      <DependentUpon>202202162244362_ProdMerchMigration.cs</DependentUpon>
-
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VenueEntity\Venue.cs" />
   </ItemGroup>
@@ -111,16 +94,5 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-	<ItemGroup>
-    <EmbeddedResource Include="Migrations\202202090233499_InitialCreate.resx">
-      <DependentUpon>202202090233499_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-	<EmbeddedResource></EmbeddedResource> Include="Migrations\202202160126421_firstMigration.resx">
-      <DependentUpon>202202160126421_firstMigration.cs</DependentUpon>
-
-    <EmbeddedResource Include="Migrations\202202162244362_ProdMerchMigration.resx">
-      <DependentUpon>202202162244362_ProdMerchMigration.cs</DependentUpon>
-    </EmbeddedResource>
-	</ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

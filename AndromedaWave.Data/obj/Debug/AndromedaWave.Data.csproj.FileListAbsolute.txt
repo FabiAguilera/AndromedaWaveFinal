@@ -109,9 +109,7 @@ C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\D
 C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.pdb
 C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.Migrations.ProductMigration.resources
 C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.GenerateResource.cache
-<<<<<<< HEAD
 C:\EFA\SD116\BlueBadge\AndromedaWaveAPI\AndromedaWave\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.Migrations.ProdMerchMigration.resources
-=======
 C:\EFA\SD116\BlueBadge\AndromedaWaveAPI\AndromedaWave\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.Migrations.ProductMigration.resources
 >>>>>>> 3eaffbfd53eaf97757e1d0a9b8d912688e460c61
 C:\EFA\SD116\BlueBadge\AndromedaWaveAPI\AndromedaWave\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.GenerateResource.cache

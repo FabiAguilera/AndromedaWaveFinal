@@ -15,22 +15,16 @@ namespace AndromedaWave.Models
         public string EventName { get; set; }
         public decimal TicketPrice { get; set; }
         public string StatusOfTicket { get; set; }
-<<<<<<< HEAD
         public AdmissionTier Admission { get; set; }
-=======
->>>>>>> 3eaffbfd53eaf97757e1d0a9b8d912688e460c61
         
         [Display(Name = "Created")]
         public DateTimeOffset CreatedUtc { get; set; }
         
         [Display(Name = "Modified")]
         public DateTimeOffset ModifiedUtc { get; set; }
-<<<<<<< HEAD
 
         [ForeignKey("Merchant")]
         public int MerchantId { get; set; }
-=======
         public AdmissionTier Admission { get; set; }
->>>>>>> 3eaffbfd53eaf97757e1d0a9b8d912688e460c61
     }
 }
