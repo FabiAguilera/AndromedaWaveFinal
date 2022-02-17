@@ -1,5 +1,4 @@
 ﻿using AndromedaWave.Data;
-using AndromedaWave.Data.VenueEntity;
 using AndromedaWave.Models.VenueModels;
 using System;
 using System.Collections.Generic;

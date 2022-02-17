@@ -25,6 +25,5 @@ namespace AndromedaWave.Models
 
         [ForeignKey("Merchant")]
         public int MerchantId { get; set; }
-        public AdmissionTier Admission { get; set; }
     }
 }

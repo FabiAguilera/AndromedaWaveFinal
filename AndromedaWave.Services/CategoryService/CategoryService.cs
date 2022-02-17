@@ -1,5 +1,4 @@
 ﻿using AndromedaWave.Data;
-using AndromedaWave.Data.CategoryEntity;
 using AndromedaWave.Models.CategoryModels;
 using System;
 using System.Collections.Generic;

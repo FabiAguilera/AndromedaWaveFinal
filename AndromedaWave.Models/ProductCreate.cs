@@ -29,17 +29,7 @@ namespace AndromedaWave.Models
         [Required]
         [ForeignKey("Merchant")]
         public int MerchantId { get; set; }
-        public string EventName { get; set; }
-        
-        [Required]
-        public decimal TicketPrice { get; set; }
-
-        [Required]
-        public AdmissionTier Admission { get; set; }
-
-        [Required]
-        public string StatusOfTicket { get; set; }
-        
+       
         [Display(Name = "Date Created")]
         public DateTimeOffset CreatedUtc { get; set; }
     }

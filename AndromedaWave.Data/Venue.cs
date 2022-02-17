@@ -26,6 +26,6 @@ namespace AndromedaWave.Data
         public string VenueDescription { get; set; }
         public Guid AuthorId { get; set; }
 
-        //public virtual ICollection<Product> Product { get; set; } = new List<Product>();
+        public virtual ICollection<Product> Product { get; set; } = new List<Product>();
     }
 }

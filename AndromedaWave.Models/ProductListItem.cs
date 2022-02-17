@@ -24,9 +24,6 @@ namespace AndromedaWave.Models
         public decimal TicketPrice { get; set; }
         
         [Display(Name = "Admission Tier")]
-        public string EventName { get; set; }
-        public string StatusOfTicket { get; set; }
-        public decimal TicketPrice { get; set; }
         public AdmissionTier Admission { get; set; }
 
         [Display(Name = "Created")]
