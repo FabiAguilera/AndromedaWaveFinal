@@ -3,10 +3,23 @@ namespace AndromedaWave.Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class ProductMigration : DbMigration
+    public partial class ProdMerchMigration : DbMigration
     {
         public override void Up()
         {
+            CreateTable(
+                "dbo.Merchant",
+                c => new
+                    {
+                        MerchantId = c.Int(nullable: false, identity: true),
+                        Name = c.String(nullable: false),
+                        Address = c.String(nullable: false),
+                        OwnerId = c.Guid(nullable: false),
+                        CreatedUtc = c.DateTimeOffset(nullable: false, precision: 7),
+                        ModifiedUtc = c.DateTimeOffset(nullable: false, precision: 7),
+                    })
+                .PrimaryKey(t => t.MerchantId);
+            
             CreateTable(
                 "dbo.Product",
                 c => new
@@ -19,8 +32,11 @@ namespace AndromedaWave.Data.Migrations
                         StatusOfTicket = c.String(nullable: false),
                         CreatedUtc = c.DateTimeOffset(nullable: false, precision: 7),
                         ModifiedUtc = c.DateTimeOffset(nullable: false, precision: 7),
+                        MerchantId = c.Int(nullable: false),
                     })
-                .PrimaryKey(t => t.TicketId);
+                .PrimaryKey(t => t.TicketId)
+                .ForeignKey("dbo.Merchant", t => t.MerchantId, cascadeDelete: true)
+                .Index(t => t.MerchantId);
             
             CreateTable(
                 "dbo.IdentityRole",
@@ -100,16 +116,19 @@ namespace AndromedaWave.Data.Migrations
             DropForeignKey("dbo.IdentityUserLogin", "ApplicationUser_Id", "dbo.ApplicationUser");
             DropForeignKey("dbo.IdentityUserClaim", "ApplicationUser_Id", "dbo.ApplicationUser");
             DropForeignKey("dbo.IdentityUserRole", "IdentityRole_Id", "dbo.IdentityRole");
+            DropForeignKey("dbo.Product", "MerchantId", "dbo.Merchant");
             DropIndex("dbo.IdentityUserLogin", new[] { "ApplicationUser_Id" });
             DropIndex("dbo.IdentityUserClaim", new[] { "ApplicationUser_Id" });
             DropIndex("dbo.IdentityUserRole", new[] { "ApplicationUser_Id" });
             DropIndex("dbo.IdentityUserRole", new[] { "IdentityRole_Id" });
+            DropIndex("dbo.Product", new[] { "MerchantId" });
             DropTable("dbo.IdentityUserLogin");
             DropTable("dbo.IdentityUserClaim");
             DropTable("dbo.ApplicationUser");
             DropTable("dbo.IdentityUserRole");
             DropTable("dbo.IdentityRole");
             DropTable("dbo.Product");
+            DropTable("dbo.Merchant");
         }
     }
 }

@@ -28,11 +28,10 @@ namespace AndromedaWave.Services
                     Admission = (Data.AdmissionTier)model.Admission,
                     TicketPrice = model.TicketPrice,
                     CreatedUtc = DateTimeOffset.Now,
-                    //CategoryId = model.CategoryId
+                    MerchantId = model.MerchantId
                 };
 
-            using (var ctx = new ApplicationDbContext())    // allows us to close the connection to the database right here
-            // when the DbContext is connected and we will be using it for something
+            using (var ctx = new ApplicationDbContext())   
             {
                 ctx.Products.Add(entity);
                 return ctx.SaveChanges() == 1;
@@ -56,7 +55,8 @@ namespace AndromedaWave.Services
                                 EventName = e.EventName,
                                 Admission = (Models.AdmissionTier)e.Admission,
                                 StatusOfTicket = e.StatusOfTicket,
-                                CreatedUtc = e.CreatedUtc
+                                CreatedUtc = e.CreatedUtc,
+                                MerchantId = e.MerchantId
                             }
                             );
                 return query.ToArray();
@@ -80,7 +80,8 @@ namespace AndromedaWave.Services
                         TicketPrice = entity.TicketPrice,
                         Admission = (Models.AdmissionTier)entity.Admission,
                         CreatedUtc = entity.CreatedUtc,
-                        ModifiedUtc = entity.ModifiedUtc
+                        ModifiedUtc = entity.ModifiedUtc,
+                        MerchantId = entity.MerchantId
                     };
             }
         }
@@ -99,6 +100,7 @@ namespace AndromedaWave.Services
                 entity.Admission = (Data.AdmissionTier)model.Admission;
                 entity.StatusOfTicket = model.StatusOfTicket;
                 entity.ModifiedUtc = DateTimeOffset.UtcNow;
+                entity.MerchantId = model.MerchantId;
 
                 return ctx.SaveChanges() == 1;
             }

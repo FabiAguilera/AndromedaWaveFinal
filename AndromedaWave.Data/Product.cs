@@ -39,5 +39,9 @@ namespace AndromedaWave.Data
        
         public DateTimeOffset ModifiedUtc { get; set; }
 
+        [ForeignKey("Merchant")]
+        public int MerchantId { get; set; }
+        public Merchant Merchant { get; set; }
+
     }
 }

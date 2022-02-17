@@ -7,13 +7,13 @@ namespace AndromedaWave.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.0-30225")]
-    public sealed partial class ProductMigration : IMigrationMetadata
+    public sealed partial class ProdMerchMigration : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(ProductMigration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(ProdMerchMigration));
         
         string IMigrationMetadata.Id
         {
-            get { return "202202100106427_ProductMigration"; }
+            get { return "202202162244362_ProdMerchMigration"; }
         }
         
         string IMigrationMetadata.Source

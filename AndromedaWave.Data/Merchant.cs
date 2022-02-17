@@ -25,6 +25,7 @@ namespace AndromedaWave.Data
         public DateTimeOffset CreatedUtc { get; set; }
         
         public DateTimeOffset ModifiedUtc { get; set; }
+        public ICollection<Product> Products { get; set; } = new List<Product>();
 
     }
 }

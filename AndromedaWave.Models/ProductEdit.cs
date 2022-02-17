@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,5 +20,8 @@ namespace AndromedaWave.Models
         public string StatusOfTicket { get; set; }
         public decimal TicketPrice { get; set; }
         public AdmissionTier Admission { get; set; }
+        
+        [ForeignKey("Merchant")]
+        public int MerchantId { get; set; }
     }
 }
