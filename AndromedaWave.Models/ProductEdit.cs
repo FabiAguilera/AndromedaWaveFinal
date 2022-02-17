@@ -20,8 +20,11 @@ namespace AndromedaWave.Models
         public string StatusOfTicket { get; set; }
         public decimal TicketPrice { get; set; }
         public AdmissionTier Admission { get; set; }
+<<<<<<< HEAD
         
         [ForeignKey("Merchant")]
         public int MerchantId { get; set; }
+=======
+>>>>>>> 3eaffbfd53eaf97757e1d0a9b8d912688e460c61
     }
 }

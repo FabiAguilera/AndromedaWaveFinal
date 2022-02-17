@@ -11,6 +11,7 @@ namespace AndromedaWave.Models
     public class ProductCreate
     {
         [Required]
+<<<<<<< HEAD
         [Display(Name = "Event Name")]
         public string EventName { get; set; }
         
@@ -29,6 +30,18 @@ namespace AndromedaWave.Models
         [Required]
         [ForeignKey("Merchant")]
         public int MerchantId { get; set; }
+=======
+        public string EventName { get; set; }
+        
+        [Required]
+        public decimal TicketPrice { get; set; }
+
+        [Required]
+        public AdmissionTier Admission { get; set; }
+
+        [Required]
+        public string StatusOfTicket { get; set; }
+>>>>>>> 3eaffbfd53eaf97757e1d0a9b8d912688e460c61
         
         [Display(Name = "Date Created")]
         public DateTimeOffset CreatedUtc { get; set; }

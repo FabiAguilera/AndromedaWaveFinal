@@ -13,6 +13,7 @@ namespace AndromedaWave.Models
     public class ProductListItem
     {
         public int TicketId { get; set; }
+<<<<<<< HEAD
         
         [Display(Name = "Event Name")]
         public string EventName { get; set; }
@@ -24,6 +25,11 @@ namespace AndromedaWave.Models
         public decimal TicketPrice { get; set; }
         
         [Display(Name = "Admission Tier")]
+=======
+        public string EventName { get; set; }
+        public string StatusOfTicket { get; set; }
+        public decimal TicketPrice { get; set; }
+>>>>>>> 3eaffbfd53eaf97757e1d0a9b8d912688e460c61
         public AdmissionTier Admission { get; set; }
 
         [Display(Name = "Created")]

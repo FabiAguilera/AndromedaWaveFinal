@@ -90,6 +90,7 @@
     <Compile Include="Migrations\202202162244362_ProdMerchMigration.cs" />
     <Compile Include="Migrations\202202162244362_ProdMerchMigration.Designer.cs">
       <DependentUpon>202202162244362_ProdMerchMigration.cs</DependentUpon>
+
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Product.cs" />
@@ -100,6 +101,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+
     <EmbeddedResource Include="Migrations\202202162244362_ProdMerchMigration.resx">
       <DependentUpon>202202162244362_ProdMerchMigration.cs</DependentUpon>
     </EmbeddedResource>
