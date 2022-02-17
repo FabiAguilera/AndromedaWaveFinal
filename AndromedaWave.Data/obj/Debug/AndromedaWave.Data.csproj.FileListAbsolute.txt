@@ -67,3 +67,6 @@ C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProje
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.CoreCompileInputs.cache
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.dll
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.pdb
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.Migrations.InitialCreate.resources
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.GenerateResource.cache
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.Migrations.firstMigration.resources

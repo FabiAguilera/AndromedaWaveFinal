@@ -17,6 +17,6 @@ C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProje
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Services\obj\Debug\AndromedaWave.Services.csproj.AssemblyReference.cache
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Services\obj\Debug\AndromedaWave.Services.csproj.CoreCompileInputs.cache
-C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Services\obj\Debug\AndromedaWave.Services.csproj.CopyComplete
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Services\obj\Debug\AndromedaWave.Services.dll
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Services\obj\Debug\AndromedaWave.Services.pdb
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Services\obj\Debug\AndromedaWave.Services.csproj.CopyComplete

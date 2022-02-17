@@ -51,6 +51,7 @@ namespace AndromedaWave.Services.VenueService
                         {
                             VenueId = e.VenueId,
                             VenueName = e.VenueName,
+                            VenueAddress = e.VenueAddress,
                         });
                 return query.ToArray();
             }

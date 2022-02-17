@@ -120,6 +120,6 @@ C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProje
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.WebAPI\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.WebAPI\bin\System.Web.Http.Owin.xml
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.WebAPI\obj\Debug\AndromedaWave.WebAPI.csproj.CopyComplete
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.WebAPI\obj\Debug\AndromedaWave.WebAPI.dll
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.WebAPI\obj\Debug\AndromedaWave.WebAPI.pdb
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.WebAPI\obj\Debug\AndromedaWave.WebAPI.csproj.CopyComplete
