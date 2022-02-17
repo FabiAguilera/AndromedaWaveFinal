@@ -33,6 +33,7 @@ C:\EFA\SD116\BlueBadge\AndromedaWaveAPI\AndromedaWave\AndromedaWave.Data\obj\Deb
 C:\EFA\SD116\BlueBadge\AndromedaWaveAPI\AndromedaWave\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.CopyComplete
 C:\EFA\SD116\BlueBadge\AndromedaWaveAPI\AndromedaWave\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.dll
 C:\EFA\SD116\BlueBadge\AndromedaWaveAPI\AndromedaWave\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.pdb
+<<<<<<< HEAD
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\AndromedaWave.Data.dll.config
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\AndromedaWave.Data.dll
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\bin\Debug\AndromedaWave.Data.pdb
@@ -70,3 +71,48 @@ C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProje
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.Migrations.InitialCreate.resources
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.GenerateResource.cache
 C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\BlueBadge\FinalGroupProject\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.Migrations.firstMigration.resources
+=======
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\AndromedaWave.Data.dll.config
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\AndromedaWave.Data.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\AndromedaWave.Data.pdb
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\EntityFramework.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Microsoft.Owin.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Microsoft.Owin.Security.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Newtonsoft.Json.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Owin.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\System.Net.Http.Formatting.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\System.Web.Http.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\System.Web.Http.Owin.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\EntityFramework.xml
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Microsoft.Owin.xml
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Microsoft.Owin.Security.xml
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\Newtonsoft.Json.xml
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\System.Net.Http.Formatting.xml
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\System.Web.Http.xml
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\bin\Debug\System.Web.Http.Owin.xml
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.AssemblyReference.cache
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.CoreCompileInputs.cache
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.CopyComplete
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.dll
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.pdb
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.Migrations.ProductMigration.resources
+C:\EFA\SD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.GenerateResource.cache
+<<<<<<< HEAD
+C:\EFA\SD116\BlueBadge\AndromedaWaveAPI\AndromedaWave\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.Migrations.ProdMerchMigration.resources
+=======
+C:\EFA\SD116\BlueBadge\AndromedaWaveAPI\AndromedaWave\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.Migrations.ProductMigration.resources
+>>>>>>> 3eaffbfd53eaf97757e1d0a9b8d912688e460c61
+C:\EFA\SD116\BlueBadge\AndromedaWaveAPI\AndromedaWave\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.GenerateResource.cache
+>>>>>>> 6e377ae9cc8dd0cd8a51a2fd08f535aa22f1af4b

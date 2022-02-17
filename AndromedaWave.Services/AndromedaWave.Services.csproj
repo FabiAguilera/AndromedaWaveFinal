@@ -54,7 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="CategoryService\CategoryService.cs" />
+=======
+    <Compile Include="MerchantService.cs" />
+    <Compile Include="ProductsService.cs" />
+>>>>>>> 6e377ae9cc8dd0cd8a51a2fd08f535aa22f1af4b
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VenueService\VenueService.cs" />
   </ItemGroup>
