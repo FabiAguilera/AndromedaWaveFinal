@@ -3,6 +3,8 @@ using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using AndromedaWave.Data.CategoryEntity;
+using AndromedaWave.Data.VenueEntity;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
@@ -18,7 +20,9 @@ namespace AndromedaWave.Data
 
         //public DbSet<Note> Notes { get; set; } <- ANDREW and COLLIN Add your entities here!!
         ///andrew's line
+        public DbSet<Venue> Venues { get; set; }
         ///andrew's line
+        public DbSet<Category> Categories { get; set; }
         ///collin's line
         ///collin's line
         ///fabi's line
