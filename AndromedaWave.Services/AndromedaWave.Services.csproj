@@ -54,11 +54,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CategoryService\CategoryService.cs" />
+    <Compile Include="CategoryService.cs" />
     <Compile Include="MerchantService.cs" />
     <Compile Include="ProductsService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VenueService\VenueService.cs" />
+    <Compile Include="VenueService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

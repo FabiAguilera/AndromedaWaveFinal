@@ -47,7 +47,7 @@ namespace AndromedaWave.Data
         public int CategoryId { get; set; }
         public Category Category { get; set; }
 
-        [ForeignKey("Category")]
+        [ForeignKey("Venue")]
         public int VenueId { get; set; }
         public Venue Venue { get; set; }
     }

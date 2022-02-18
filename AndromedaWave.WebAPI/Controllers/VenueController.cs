@@ -1,5 +1,5 @@
 ﻿using AndromedaWave.Models.VenueModels;
-using AndromedaWave.Services.VenueService;
+using AndromedaWave.Services;
 using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;

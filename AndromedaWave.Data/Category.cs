@@ -16,8 +16,7 @@ namespace AndromedaWave.Data
         [Required]
         [Display(Name = "Type")]
         public string CategoryType { get; set; }
-        [ForeignKey("Product")]
-        public int ProductId { get; set; }
+        
         public Guid AuthorId { get; set; }
 
         public virtual ICollection<Product> Product { get; set; } = new List<Product>();
