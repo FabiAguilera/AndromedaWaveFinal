@@ -19,8 +19,9 @@ namespace AndromedaWave.Data
         //public DbSet<Note> Notes { get; set; } <- ANDREW and COLLIN Add your entities here!!
         ///andrew's line
         ///andrew's line
-        ///collin's line
-        ///collin's line
+        //Collin's line
+       
+        //Collin's line
         ///fabi's line
         ///fabi's line
 
@@ -28,7 +29,9 @@ namespace AndromedaWave.Data
         {
             return new ApplicationDbContext();
         }
+        public DbSet<Attendee> Attendees { get; set; }
 
+        public DbSet<Transaction> Transactions { get; set; }
         //public DbSet<Category> Categories { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
