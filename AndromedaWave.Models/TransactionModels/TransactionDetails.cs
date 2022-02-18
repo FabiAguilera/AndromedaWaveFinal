@@ -9,14 +9,13 @@ namespace AndromedaWave.Models
 {
     public class TransactionDetails
     {
-        [Key]
-        [Required]
-        public int Id { get; set; }
-        [Required]
+       
+        
+        
         public int TransactionId { get; set; }
-        [Required]
+        
         public bool IsConfirmed { get; set; }
-        [Required]
+        
         public DateTimeOffset CreatedTransaction { get; set; } = DateTimeOffset.Now;
         public DateTimeOffset ModifiedTransaction { get; set; }
     }

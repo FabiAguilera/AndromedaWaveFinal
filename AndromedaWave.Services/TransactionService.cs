@@ -1,5 +1,6 @@
 ﻿using AndromedaWave.Data;
 using AndromedaWave.Models;
+using AndromedaWave.Models.TransactionModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,20 +11,48 @@ namespace AndromedaWave.Services
 {
     public class TransactionService
     {
+        
+        private readonly Guid _userId;
+
+        public TransactionService(Guid userId)
+        {
+            _userId = userId;
+        }
         public bool CreateTransaction(CreateTransaction model)
         {
-            var entity =
-                new Transaction
+            Transaction entity =
+                new Transaction()
                 {
-                    TransactionId = model.TransactionId,
+                    OwnerId = _userId,
                     IsConfirmed = model.IsConfirmed,
                     CreatedTransaction = model.CreatedTransaction,
-                    ModifiedTransaction = model.ModifiedTransaction
+                    ModifiedTransaction = model.ModifiedTransaction,
+                    
                 };
-            using(var context = new ApplicationDbContext())
+           
+            using (var context = new ApplicationDbContext())
             {
-                context.Transactions.Add(entity);
-                return context.SaveChanges() == 1;
+                entity.Attendees = new List<Attendee>();
+                foreach (var attendee in model.Attendees ?? new List<Attendee>())
+                {
+                    new Attendee
+                    {
+                        AttendeeId = attendee.AttendeeId,
+                        OwnerId = attendee.OwnerId,
+                        AttendeeName = attendee.AttendeeName,
+                        CreatedAttendee = attendee.CreatedAttendee,
+                        ModifiedAttendee = attendee.ModifiedAttendee,
+                        Transactions = attendee.Transactions
+                    };
+
+
+                    context.Attendees.Add(attendee);
+                    return context.SaveChanges() == 1;
+                }
+                   
+                    context.Transactions.Add(entity);
+                    return context.SaveChanges() == 1;
+                
             }
         }
 
@@ -34,46 +63,67 @@ namespace AndromedaWave.Services
                 var entity =
                     context
                     .Transactions
-                    .Single(e => Id == e.TransactionId);
+                    .SingleOrDefault(e => Id == e.TransactionId && e.OwnerId == _userId );
 
-                return new TransactionDetails
-                {
+                return 
+                    new TransactionDetails 
+                    {
                     TransactionId =entity.TransactionId,
                     IsConfirmed=entity.IsConfirmed,
                     CreatedTransaction=entity.CreatedTransaction,
                     ModifiedTransaction = entity.ModifiedTransaction
-                };
+                    };
             }
         }
-
-        public bool UpdateTransaction(UpdateTransaction model)
+        public IEnumerable<TransactionListItem> GetTransactions()
         {
-            using( var context = new ApplicationDbContext())
+            using (var context = new ApplicationDbContext())
             {
-                var entity =
+                var query =
                     context
-                    .Transactions
-                    .Single(e => e.TransactionId == model.TransactionId);
-
-                entity.TransactionId = model.TransactionId;
-                entity.IsConfirmed = model.IsConfirmed;
-                entity.ModifiedTransaction = model.ModifiedTransaction;
-                
-                return context.SaveChanges() == 1;
+                         .Transactions
+                         .Where(e => e.OwnerId == _userId)
+                         .Select(
+                             e =>
+                                new TransactionListItem
+                                {
+                                  TransactionId = e.TransactionId,
+                                  IsConfirmed = e.IsConfirmed,
+                                  CreatedTransaction = e.CreatedTransaction,
+                                  ModifiedTransaction= e.ModifiedTransaction  
+                                });
+                return query.ToArray();
             }
         }
-
-        public bool DeleteTransaction(int id)
+        public bool UpdateTransaction(UpdateTransaction model)
         {
             using (var context = new ApplicationDbContext())
             {
                 var entity =
                     context
                     .Transactions
-                    .Single(e => e.TransactionId==id);
+                    .Single(e => e.TransactionId == model.TransactionId && e.OwnerId == _userId);
 
-                context.Transactions.Remove(entity);
+                entity.TransactionId = model.TransactionId;
+                entity.IsConfirmed = model.IsConfirmed;
+                entity.ModifiedTransaction = model.ModifiedTransaction;
+
                 return context.SaveChanges() == 1;
+            }
+
+        }
+        public bool DeleteTransaction(int transactionId)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                          .Transactions
+                          .SingleOrDefault (e => e.TransactionId==transactionId && e.OwnerId == _userId);
+
+                ctx.Transactions.Remove(entity);
+
+                return ctx.SaveChanges() == 1;
             }
         }
 

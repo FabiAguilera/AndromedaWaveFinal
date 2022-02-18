@@ -12,12 +12,16 @@ namespace AndromedaWave.Data
     {
         [Key]
         public int AttendeeId { get; set; }
+        
         [Required]
         public Guid OwnerId { get; set; }
         [Required]
         public string AttendeeName { get; set; }
+
         [Required]
         public DateTimeOffset CreatedAttendee { get; set; } = DateTimeOffset.Now;
         public DateTimeOffset? ModifiedAttendee { get; set; }
+
+        public virtual ICollection<Transaction> Transactions { get; set; }
     }
 }

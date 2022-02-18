@@ -9,10 +9,8 @@ namespace AndromedaWave.Models
 {
     public class DeleteTransaction
     {
-        [Key]
         [Required]
         public int TransactionId { get; set; }
-        [Required]
-        public string TransactionName { get; set; }
+        
     }
 }

@@ -19,9 +19,10 @@ namespace AndromedaWave.Services
         public bool CreateAttendee(CreateAttendee model)
         {
 
-            var entity =
-                new Attendee
+            Attendee entity =
+                new Attendee()
                 {
+                    OwnerId = _userId,
                     AttendeeId = model.AttendeeId,
                     AttendeeName = model.AttendeeName,
                     CreatedAttendee = model.CreatedAttendee
@@ -42,11 +43,11 @@ namespace AndromedaWave.Services
                     .Attendees
                     .Where(e => 1 == 1)
                     .Select(e =>
-                    new AttendeeDetails
+                    new AttendeeDetails()
                     {
                         AttendeeId = e.AttendeeId,
                         CreatedAttendee = e.CreatedAttendee,
-                        AttendeeName = e.AttendeeName,
+                        AttendeeName = e.AttendeeName
                     });
                 return query.ToArray();
             }
@@ -59,14 +60,15 @@ namespace AndromedaWave.Services
                 var entity =
                     context
                     .Attendees
-                    .Single(e => AttendeeId == e.AttendeeId);
+                    .SingleOrDefault(e => AttendeeId == e.AttendeeId && e.OwnerId == _userId);
 
-                return new AttendeeDetails
-                {
+                return 
+                    new AttendeeDetails
+                    {
                     AttendeeId = entity.AttendeeId,
                     AttendeeName = entity.AttendeeName,
                     CreatedAttendee = entity.CreatedAttendee,
-                };
+                    };
             }
         }
 
@@ -77,7 +79,7 @@ namespace AndromedaWave.Services
                 var entity =
                     context
                     .Attendees
-                    .Single(e => AttendeeId == e.AttendeeId);
+                    .Single(e => AttendeeId == e.AttendeeId && e.OwnerId == _userId);
 
                 context.Attendees.Remove(entity);
 

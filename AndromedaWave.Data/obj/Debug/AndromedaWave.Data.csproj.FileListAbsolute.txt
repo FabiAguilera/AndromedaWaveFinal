@@ -68,3 +68,5 @@ D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Dat
 D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.CopyComplete
 D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.dll
 D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.pdb
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.Migrations.First.resources
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Data\obj\Debug\AndromedaWave.Data.csproj.GenerateResource.cache

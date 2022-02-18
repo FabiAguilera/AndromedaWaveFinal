@@ -60,11 +60,18 @@
     <Compile Include="TransactionModels\DeleteTransaction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TransactionModels\TransactionDetails.cs" />
+    <Compile Include="TransactionModels\TransactionListItem.cs" />
     <Compile Include="TransactionModels\UpdateTransaction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AndromedaWave.Data\AndromedaWave.Data.csproj">
+      <Project>{68962E50-BEE7-462F-8570-04137C0E791F}</Project>
+      <Name>AndromedaWave.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

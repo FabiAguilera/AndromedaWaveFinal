@@ -10,12 +10,11 @@ namespace AndromedaWave.Models
 {
     public class AttendeeDetails
     {
-       [ForeignKey(nameof(AttendeeName))]
-       [Required]
+       
        public string AttendeeName { get; set; }
-       [Required]
+      
        public int AttendeeId { get; set; }
-       [Required]
+       
        public DateTimeOffset CreatedAttendee { get; set; }
     }
 }

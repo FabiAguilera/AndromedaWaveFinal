@@ -20,9 +20,7 @@ namespace AndromedaWave.Data
         ///andrew's line
         ///andrew's line
         //Collin's line
-        public DbSet<Attendee> Attendees { get; set; }
-        
-        public DbSet<Transaction> Transactions { get; set; }
+       
         //Collin's line
         ///fabi's line
         ///fabi's line
@@ -31,7 +29,9 @@ namespace AndromedaWave.Data
         {
             return new ApplicationDbContext();
         }
+        public DbSet<Attendee> Attendees { get; set; }
 
+        public DbSet<Transaction> Transactions { get; set; }
         //public DbSet<Category> Categories { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

@@ -52,19 +52,19 @@ namespace AndromedaWave.WebAPI.Controllers
         [HttpGet]
         public IHttpActionResult GetAllAttendees()
         {
-            var services = CreateAttendeeServices();
+            AttendeeServices attendeeServices = CreateAttendeeServices();
 
-            var query = services.GetAttendees();
+            var attendees = attendeeServices.GetAttendees();
 
-            return Ok(query);
+            return Ok(attendees);
         }
 
         [HttpDelete]
-        public IHttpActionResult DeleteAttendee(int AttendeeId)
+        public IHttpActionResult DeleteAttendee(int Id)
         {
             var service = CreateAttendeeServices();
 
-            if (!service.DeleteAttendee(AttendeeId))
+            if (!service.DeleteAttendee(Id))
                 return InternalServerError();
 
             return Ok("Attendee has been deleted!");

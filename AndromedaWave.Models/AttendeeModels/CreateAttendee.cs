@@ -10,12 +10,12 @@ namespace AndromedaWave.Models
 {
     public class CreateAttendee
     {
-        [Key]
-        [Required]
+       
+        
         public int AttendeeId { get; set; }
         [Required]
         public string AttendeeName { get; set; }
-        [Required]
+        
         public DateTime CreatedAttendee { get; set; }
        
         

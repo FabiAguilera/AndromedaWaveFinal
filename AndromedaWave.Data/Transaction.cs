@@ -10,6 +10,7 @@ namespace AndromedaWave.Data
     public class Transaction
     {
         [Key]
+        [Required]
         public int TransactionId { get; set; }
         [Required]
         public Guid OwnerId { get; set; }
@@ -18,6 +19,7 @@ namespace AndromedaWave.Data
         [Required]
         public DateTimeOffset CreatedTransaction { get; set; } = DateTimeOffset.Now;
         public DateTimeOffset ModifiedTransaction { get; set; }
+        public virtual ICollection<Attendee> Attendees { get; set;}
 
     }
 }

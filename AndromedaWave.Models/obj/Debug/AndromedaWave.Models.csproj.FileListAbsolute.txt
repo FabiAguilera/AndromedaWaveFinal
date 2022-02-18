@@ -14,3 +14,6 @@ D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Mod
 D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Models\obj\Debug\AndromedaWave.Models.csproj.CopyComplete
 D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Models\obj\Debug\AndromedaWave.Models.dll
 D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Models\obj\Debug\AndromedaWave.Models.pdb
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Models\bin\Debug\AndromedaWave.Data.dll
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Models\bin\Debug\AndromedaWave.Data.pdb
+D:\ElevenFiftySD116\BlueBadge\AndromedaWave\AndromedaWaveFinal\AndromedaWave.Models\bin\Debug\AndromedaWave.Data.dll.config
