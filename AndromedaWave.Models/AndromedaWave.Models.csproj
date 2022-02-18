@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="AttendeeModels\AttendeeDetails.cs" />
     <Compile Include="AttendeeModels\CreateAttendee.cs" />
     <Compile Include="TransactionModels\CreateTransaction.cs" />
@@ -62,11 +63,32 @@
     <Compile Include="TransactionModels\TransactionDetails.cs" />
     <Compile Include="TransactionModels\TransactionListItem.cs" />
     <Compile Include="TransactionModels\UpdateTransaction.cs" />
+=======
+    <Compile Include="CategoryModels\CategoryCreate.cs" />
+    <Compile Include="CategoryModels\CategoryDelete.cs" />
+    <Compile Include="CategoryModels\CategoryGet.cs" />
+    <Compile Include="MerchantCreate.cs" />
+    <Compile Include="MerchantDetail.cs" />
+    <Compile Include="MerchantEdit.cs" />
+    <Compile Include="MerchantListItem.cs" />
+    <Compile Include="ProductListItem.cs" />
+    <Compile Include="ProductDetail.cs" />
+    <Compile Include="ProductCreate.cs" />
+    <Compile Include="ProductEdit.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VenueModels\VenueCreate.cs" />
+    <Compile Include="VenueModels\VenueDelete.cs" />
+    <Compile Include="VenueModels\VenueGet.cs" />
+>>>>>>> 7d2afe46e3f809c52edd487d5a865ee60a56c10b
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup />
+>>>>>>> 7d2afe46e3f809c52edd487d5a865ee60a56c10b
   <ItemGroup>
     <ProjectReference Include="..\AndromedaWave.Data\AndromedaWave.Data.csproj">
       <Project>{68962E50-BEE7-462F-8570-04137C0E791F}</Project>
