@@ -102,8 +102,18 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <EmbeddedResource Include="Migrations\202202180143584_NavRefOne.resx">
       <DependentUpon>202202180143584_NavRefOne.cs</DependentUpon>
+=======
+<<<<<<< HEAD
+    <EmbeddedResource Include="Migrations\202202172240426_First.resx">
+      <DependentUpon>202202172240426_First.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Migrations\202202180143584_NavRefOne.resx">
+      <DependentUpon>202202180143584_NavRefOne.cs</DependentUpon>
+>>>>>>> NavRefProd
+>>>>>>> Stashed changes
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

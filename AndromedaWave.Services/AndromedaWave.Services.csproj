@@ -54,7 +54,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <Compile Include="CategoryService.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="AttendeeServices.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransactionService.cs" />
+    <Compile Include="CategoryService\CategoryService.cs" />
+=======
+    <Compile Include="CategoryService.cs" />
+>>>>>>> NavRefProd
+>>>>>>> Stashed changes
     <Compile Include="MerchantService.cs" />
     <Compile Include="ProductsService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
