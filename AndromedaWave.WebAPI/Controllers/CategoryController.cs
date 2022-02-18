@@ -1,5 +1,5 @@
 ﻿using AndromedaWave.Models.CategoryModels;
-using AndromedaWave.Services.CategoryService;
+using AndromedaWave.Services;
 using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;

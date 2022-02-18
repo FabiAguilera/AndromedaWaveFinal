@@ -29,7 +29,13 @@ namespace AndromedaWave.Models
         [Required]
         [ForeignKey("Merchant")]
         public int MerchantId { get; set; }
-       
+
+        [ForeignKey("Category")]
+        public int CategoryId { get; set; }
+
+        [ForeignKey("Category")]
+        public int VenueId { get; set; }
+
         [Display(Name = "Date Created")]
         public DateTimeOffset CreatedUtc { get; set; }
     }

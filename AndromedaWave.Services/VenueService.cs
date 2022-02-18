@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AndromedaWave.Services.VenueService
+namespace AndromedaWave.Services
 {
     public class VenueService
     {

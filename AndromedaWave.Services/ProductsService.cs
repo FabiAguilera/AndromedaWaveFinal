@@ -28,7 +28,9 @@ namespace AndromedaWave.Services
                     Admission = (Data.AdmissionTier)model.Admission,
                     TicketPrice = model.TicketPrice,
                     CreatedUtc = DateTimeOffset.Now,
-                    MerchantId = model.MerchantId
+                    MerchantId = model.MerchantId,
+                    CategoryId = model.CategoryId,
+                    VenueId = model.VenueId
                 };
 
             using (var ctx = new ApplicationDbContext())   
@@ -56,7 +58,9 @@ namespace AndromedaWave.Services
                                 Admission = (Models.AdmissionTier)e.Admission,
                                 StatusOfTicket = e.StatusOfTicket,
                                 CreatedUtc = e.CreatedUtc,
-                                MerchantId = e.MerchantId
+                                MerchantId = e.MerchantId,
+                                CategoryId = e.CategoryId,
+                                VenueId = e.VenueId
                             }
                             );
                 return query.ToArray();
@@ -81,7 +85,9 @@ namespace AndromedaWave.Services
                         Admission = (Models.AdmissionTier)entity.Admission,
                         CreatedUtc = entity.CreatedUtc,
                         ModifiedUtc = entity.ModifiedUtc,
-                        MerchantId = entity.MerchantId
+                        MerchantId = entity.MerchantId,
+                        CategoryId = entity.CategoryId,
+                        VenueId = entity.VenueId
                     };
             }
         }
@@ -101,6 +107,8 @@ namespace AndromedaWave.Services
                 entity.StatusOfTicket = model.StatusOfTicket;
                 entity.ModifiedUtc = DateTimeOffset.UtcNow;
                 entity.MerchantId = model.MerchantId;
+                entity.CategoryId = entity.CategoryId;
+                entity.VenueId = entity.VenueId;
 
                 return ctx.SaveChanges() == 1;
             }

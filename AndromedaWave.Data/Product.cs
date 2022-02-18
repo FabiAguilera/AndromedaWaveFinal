@@ -42,6 +42,13 @@ namespace AndromedaWave.Data
         [ForeignKey("Merchant")]
         public int MerchantId { get; set; }
         public Merchant Merchant { get; set; }
+       
+        [ForeignKey("Category")]
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
 
+        [ForeignKey("Venue")]
+        public int VenueId { get; set; }
+        public Venue Venue { get; set; }
     }
 }

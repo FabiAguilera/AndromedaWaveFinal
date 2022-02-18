@@ -31,5 +31,11 @@ namespace AndromedaWave.Models
 
         [ForeignKey("Merchant")]
         public int MerchantId { get; set; }
+
+        [ForeignKey("Category")]
+        public int CategoryId { get; set; }
+
+        [ForeignKey("Category")]
+        public int VenueId { get; set; }
     }
 }
