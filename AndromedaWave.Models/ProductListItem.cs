@@ -23,8 +23,7 @@ namespace AndromedaWave.Models
         [Display(Name = "Ticket Price")]
         public decimal TicketPrice { get; set; }
         
-        [Display(Name = "Admission Tier")]
-        public AdmissionTier Admission { get; set; }
+        public string Admission { get; set; }
 
         [Display(Name = "Created")]
         public DateTimeOffset CreatedUtc { get; set; }

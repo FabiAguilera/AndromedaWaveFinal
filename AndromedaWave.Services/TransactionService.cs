@@ -33,26 +33,26 @@ namespace AndromedaWave.Services
             using (var context = new ApplicationDbContext())
             {
                 entity.Attendees = new List<Attendee>();
-                foreach (var attendee in model.Attendees ?? new List<Attendee>())
+                entity.Merchants = new List<Merchant>();
+                entity.Products = new List<Product>();
+                foreach (int id in model.AttendeeId)
                 {
-                    new Attendee
-                    {
-                        AttendeeId = attendee.AttendeeId,
-                        OwnerId = attendee.OwnerId,
-                        AttendeeName = attendee.AttendeeName,
-                        CreatedAttendee = attendee.CreatedAttendee,
-                        ModifiedAttendee = attendee.ModifiedAttendee,
-                        Transactions = attendee.Transactions
-                    };
-
-
-                    context.Attendees.Add(attendee);
-                    return context.SaveChanges() == 1;
+                    var attendee = context.Attendees.Find(id);
+                    entity.Attendees.Add(attendee);
                 }
-                   
-                    context.Transactions.Add(entity);
-                    return context.SaveChanges() == 1;
-                
+                foreach (int id in model.ProductId)
+                {
+                    var product = context.Products.Find(id);
+                    entity.Products.Add(product);
+                }
+                foreach (int id in model.MerchantId)
+                {
+                    var merchant = context.Merchants.Find(id);
+                    entity.Merchants.Add(merchant);
+                }
+               
+                context.Transactions.Add(entity);
+                return context.SaveChanges() == 1;
             }
         }
 

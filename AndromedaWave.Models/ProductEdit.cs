@@ -19,7 +19,7 @@ namespace AndromedaWave.Models
         public string EventName { get; set; }
         public string StatusOfTicket { get; set; }
         public decimal TicketPrice { get; set; }
-        public AdmissionTier Admission { get; set; }
+        public string Admission { get; set; }
         
         [ForeignKey("Merchant")]
         public int MerchantId { get; set; }

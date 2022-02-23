@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AndromedaWave.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -15,7 +16,7 @@ namespace AndromedaWave.Models
         public string EventName { get; set; }
         public decimal TicketPrice { get; set; }
         public string StatusOfTicket { get; set; }
-        public AdmissionTier Admission { get; set; }
+        public string Admission { get; set; }
         
         [Display(Name = "Created")]
         public DateTimeOffset CreatedUtc { get; set; }
@@ -31,5 +32,6 @@ namespace AndromedaWave.Models
 
         [ForeignKey("Category")]
         public int VenueId { get; set; }
+
     }
 }

@@ -18,6 +18,8 @@ namespace AndromedaWave.Models
         [Required]
         public DateTimeOffset ModifiedTransaction { get; set; }
 
-        public virtual ICollection<Attendee> Attendees { get; set; }
+        public ICollection<int> AttendeeId { get; set; }
+        public ICollection<int> ProductId { get; set; }
+        public ICollection<int> MerchantId { get; set; }
     }
 }

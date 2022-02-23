@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AndromedaWave.Models.TransactionModels;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -18,9 +19,7 @@ namespace AndromedaWave.Models
         [Display(Name = "Ticket Price")]
         public decimal TicketPrice { get; set; }
 
-        [Required]
-        [Display(Name = "Admission Tier")]
-        public AdmissionTier Admission { get; set; }
+        public string Admission { get; set; }
 
         [Required]
         [Display(Name = "Availability")]
@@ -38,5 +37,8 @@ namespace AndromedaWave.Models
 
         [Display(Name = "Date Created")]
         public DateTimeOffset CreatedUtc { get; set; }
+
+        public IEnumerable<TransactionListItem> Transactions { get; set; }
+
     }
 }
