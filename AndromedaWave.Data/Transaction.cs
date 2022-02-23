@@ -20,6 +20,8 @@ namespace AndromedaWave.Data
         public DateTimeOffset CreatedTransaction { get; set; } = DateTimeOffset.Now;
         public DateTimeOffset ModifiedTransaction { get; set; }
         public virtual ICollection<Attendee> Attendees { get; set;}
+        public virtual ICollection<Product> Products { get; set; } 
+        public virtual ICollection<Merchant> Merchants { get; set; }
 
     }
 }

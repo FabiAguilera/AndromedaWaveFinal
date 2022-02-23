@@ -25,7 +25,7 @@ namespace AndromedaWave.Services
                     OwnerId = _userId,
                     EventName = model.EventName,
                     StatusOfTicket = model.StatusOfTicket,
-                    Admission = (Data.AdmissionTier)model.Admission,
+                    Admission = model.Admission,
                     TicketPrice = model.TicketPrice,
                     CreatedUtc = DateTimeOffset.Now,
                     MerchantId = model.MerchantId,
@@ -55,7 +55,7 @@ namespace AndromedaWave.Services
                                 TicketId = e.TicketId,
                                 TicketPrice = e.TicketPrice,
                                 EventName = e.EventName,
-                                Admission = (Models.AdmissionTier)e.Admission,
+                                Admission = e.Admission,
                                 StatusOfTicket = e.StatusOfTicket,
                                 CreatedUtc = e.CreatedUtc,
                                 MerchantId = e.MerchantId,
@@ -82,7 +82,7 @@ namespace AndromedaWave.Services
                         StatusOfTicket = entity.StatusOfTicket,
                         EventName = entity.EventName,
                         TicketPrice = entity.TicketPrice,
-                        Admission = (Models.AdmissionTier)entity.Admission,
+                        Admission = entity.Admission,
                         CreatedUtc = entity.CreatedUtc,
                         ModifiedUtc = entity.ModifiedUtc,
                         MerchantId = entity.MerchantId,
@@ -103,7 +103,7 @@ namespace AndromedaWave.Services
 
                 entity.EventName = model.EventName;
                 entity.TicketPrice = model.TicketPrice;
-                entity.Admission = (Data.AdmissionTier)model.Admission;
+                entity.Admission = model.Admission;
                 entity.StatusOfTicket = model.StatusOfTicket;
                 entity.ModifiedUtc = DateTimeOffset.UtcNow;
                 entity.MerchantId = model.MerchantId;

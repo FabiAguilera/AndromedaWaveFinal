@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AndromedaWave.Models.TransactionModels;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -20,6 +21,9 @@ namespace AndromedaWave.Models
         
         [Display(Name = "Date Created")]
         public DateTimeOffset CreatedUtc { get; set; }
+
+        public virtual IEnumerable<TransactionListItem> Transactions { get; set; }
+
 
     }
 }

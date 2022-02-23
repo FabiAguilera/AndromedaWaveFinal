@@ -8,15 +8,10 @@ using System.Threading.Tasks;
 
 namespace AndromedaWave.Data
 {
-    public enum AdmissionTier
-    {
-        GeneralAdmission,
-        ClubMembers,
-        VIP
-    }
     public class Product
     {
         [Key]
+        [Required]
         public int TicketId { get; set; }
 
         [Required]
@@ -29,7 +24,7 @@ namespace AndromedaWave.Data
         public decimal TicketPrice { get; set; }
         
         [Required]
-        public AdmissionTier Admission { get; set; }
+        public string Admission { get; set; }
         
         [Required]
         public string StatusOfTicket { get; set; }
@@ -41,14 +36,17 @@ namespace AndromedaWave.Data
 
         [ForeignKey("Merchant")]
         public int MerchantId { get; set; }
-        public Merchant Merchant { get; set; }
+        public virtual Merchant Merchant { get; set; }
        
         [ForeignKey("Category")]
         public int CategoryId { get; set; }
-        public Category Category { get; set; }
+        public virtual Category Category { get; set; }
 
         [ForeignKey("Venue")]
         public int VenueId { get; set; }
-        public Venue Venue { get; set; }
+        public virtual Venue Venue { get; set; }
+
+        public virtual ICollection<Transaction> Transactions { get; set; }
+
     }
 }
