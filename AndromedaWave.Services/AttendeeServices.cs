@@ -19,7 +19,7 @@ namespace AndromedaWave.Services
         public bool CreateAttendee(CreateAttendee model)
         {
 
-            Attendee entity =
+            var entity =
                 new Attendee()
                 {
                     OwnerId = _userId,
@@ -29,6 +29,7 @@ namespace AndromedaWave.Services
                 };
             using (var context = new ApplicationDbContext())
             {
+
                 context.Attendees.Add(entity);
                 return context.SaveChanges() == 1;
             }

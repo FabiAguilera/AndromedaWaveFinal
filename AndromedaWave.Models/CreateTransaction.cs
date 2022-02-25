@@ -13,13 +13,16 @@ namespace AndromedaWave.Models
         
         [Required]
         public bool IsConfirmed { get; set; }
-        [Required]
+        
         public DateTimeOffset CreatedTransaction { get; set; } = DateTimeOffset.Now;
-        [Required]
+      
         public DateTimeOffset ModifiedTransaction { get; set; }
 
+        [Required]
         public ICollection<int> AttendeeId { get; set; }
-        public ICollection<int> ProductId { get; set; }
+        [Required]
+        public ICollection<int> TicketId { get; set; }
+        [Required]
         public ICollection<int> MerchantId { get; set; }
     }
 }

@@ -10,7 +10,7 @@ namespace AndromedaWave.Models
 {
     public class MerchantCreate
     {
-        [Required]
+        
         public int MerchantId { get; set; }
         
         [Required]

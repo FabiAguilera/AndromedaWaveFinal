@@ -88,9 +88,9 @@
     <Compile Include="ApplicationUser.cs" />
     <Compile Include="Attendee.cs" />
     <Compile Include="IdentityUserLoginConfiguration.cs" />
-    <Compile Include="Migrations\202202230214166_FinalMig.cs" />
-    <Compile Include="Migrations\202202230214166_FinalMig.Designer.cs">
-      <DependentUpon>202202230214166_FinalMig.cs</DependentUpon>
+    <Compile Include="Migrations\202202240032310_Final.cs" />
+    <Compile Include="Migrations\202202240032310_Final.Designer.cs">
+      <DependentUpon>202202240032310_Final.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -107,8 +107,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202202230214166_FinalMig.resx">
-      <DependentUpon>202202230214166_FinalMig.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202202240032310_Final.resx">
+      <DependentUpon>202202240032310_Final.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

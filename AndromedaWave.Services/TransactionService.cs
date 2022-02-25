@@ -40,7 +40,7 @@ namespace AndromedaWave.Services
                     var attendee = context.Attendees.Find(id);
                     entity.Attendees.Add(attendee);
                 }
-                foreach (int id in model.ProductId)
+                foreach (int id in model.TicketId)
                 {
                     var product = context.Products.Find(id);
                     entity.Products.Add(product);

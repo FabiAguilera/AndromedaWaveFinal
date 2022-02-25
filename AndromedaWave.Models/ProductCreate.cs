@@ -18,7 +18,7 @@ namespace AndromedaWave.Models
         [Required]
         [Display(Name = "Ticket Price")]
         public decimal TicketPrice { get; set; }
-
+        [Required]
         public string Admission { get; set; }
 
         [Required]
@@ -28,11 +28,11 @@ namespace AndromedaWave.Models
         [Required]
         [ForeignKey("Merchant")]
         public int MerchantId { get; set; }
-
+        [Required]
         [ForeignKey("Category")]
         public int CategoryId { get; set; }
-
-        [ForeignKey("Category")]
+        [Required]
+        [ForeignKey("Venue")]
         public int VenueId { get; set; }
 
         [Display(Name = "Date Created")]
